@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "clipboard-master:grab"
   },
-  "repository": "https://github.com/atom/clipboard-master",
+  "repository": "https://github.com/tomcek112/clipboard-master",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
