@@ -2,10 +2,6 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle clipboard-master'
-      'command': 'clipboard-master:toggle'
-    }
-    {
       'label': 'Grab Selection'
       'command': 'clipboard-master:grab'
     }
@@ -40,10 +36,6 @@
     'submenu': [
       'label': 'clipboard-master'
       'submenu': [
-        {
-          'label': 'Toggle'
-          'command': 'clipboard-master:toggle'
-        }
         {
           'label': 'Grab'
           'command': 'clipboard-master:grab'

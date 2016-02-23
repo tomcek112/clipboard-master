@@ -1,12 +1,16 @@
 {
   "name": "clipboard-master",
   "main": "./lib/clipboard-master",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "The ultimate tool to manage your clipboard history within Atom. Copy and paste up to five item from your new clipboard history.",
   "keywords": [
+    "clipboard",
+    "clipboard-master",
+    "copy",
+    "paste"
   ],
   "activationCommands": {
-    "atom-workspace": "clipboard-master:toggle"
+    "atom-workspace": "clipboard-master:grab"
   },
   "repository": "https://github.com/atom/clipboard-master",
   "license": "MIT",
