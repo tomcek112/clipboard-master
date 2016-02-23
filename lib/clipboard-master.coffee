@@ -55,6 +55,7 @@ module.exports = ClipboardMaster =
         global.sel5 = selection
       else
         this.clear()
+        this.grab()
     else
       console.log 'error in grab'
 
