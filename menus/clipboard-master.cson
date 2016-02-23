@@ -1,0 +1,70 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle clipboard-master'
+      'command': 'clipboard-master:toggle'
+    }
+    {
+      'label': 'Grab Selection'
+      'command': 'clipboard-master:grab'
+    }
+    {
+      'label': 'Paste Item 1'
+      'command': 'clipboard-master:paste1'
+    }
+    {
+      'label': 'Paste Item 2'
+      'command': 'clipboard-master:paste2'
+    }
+    {
+      'label': 'Paste Item 3'
+      'command': 'clipboard-master:paste3'
+    }
+    {
+      'label': 'Paste Item 4'
+      'command': 'clipboard-master:paste4'
+    }
+    {
+      'label': 'Paste Item 5'
+      'command': 'clipboard-master:paste5'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'clipboard-master'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'clipboard-master:toggle'
+        }
+        {
+          'label': 'Grab'
+          'command': 'clipboard-master:grab'
+        }
+        {
+          'label': 'Paste1'
+          'command': 'clipboard-master:paste1'
+        }
+        {
+          'label': 'Paste2'
+          'command': 'clipboard-master:paste2'
+        }
+        {
+          'label': 'Paste3'
+          'command': 'clipboard-master:paste3'
+        }
+        {
+          'label': 'Paste4'
+          'command': 'clipboard-master:paste4'
+        }
+        {
+          'label': 'Paste5'
+          'command': 'clipboard-master:paste5'
+        }
+      ]
+    ]
+  }
+]
