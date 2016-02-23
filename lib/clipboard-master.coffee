@@ -53,6 +53,8 @@ module.exports = ClipboardMaster =
         global.sel4 = selection
       else if global.sel5 == ''
         global.sel5 = selection
+      else
+        this.clear()
     else
       console.log 'error in grab'
 
