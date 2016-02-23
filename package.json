@@ -1,7 +1,7 @@
 {
   "name": "clipboard-master",
   "main": "./lib/clipboard-master",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The ultimate tool to manage your clipboard history within Atom. Copy and paste up to five item from your new clipboard history.",
   "keywords": [
     "clipboard",
