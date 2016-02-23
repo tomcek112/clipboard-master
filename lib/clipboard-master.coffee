@@ -6,6 +6,7 @@ global.sel2 = ''
 global.sel3 = ''
 global.sel4 = ''
 global.sel5 = ''
+global.sel6 = ''
 
 module.exports = ClipboardMaster =
   clipboardMasterView: null
@@ -55,7 +56,8 @@ module.exports = ClipboardMaster =
         global.sel5 = selection
       else
         this.clear()
-        this.grab()
+        global.sel6 = selection
+        global.sel1 = global.sel6
     else
       console.log 'error in grab'
 
@@ -96,6 +98,7 @@ module.exports = ClipboardMaster =
     global.sel3 = ''
     global.sel4 = ''
     global.sel5 = ''
+    global.sel6 = ''
 
 
   toggle: ->
