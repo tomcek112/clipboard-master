@@ -28,6 +28,7 @@ module.exports = ClipboardMaster =
       'clipboard-master:paste3': => @paste3()
       'clipboard-master:paste4': => @paste4()
       'clipboard-master:paste5': => @paste5()
+      'clipboard-master:clear': => @clear()
 
   deactivate: ->
     @modalPanel.destroy()
@@ -86,6 +87,12 @@ module.exports = ClipboardMaster =
     else
       console.log 'error in paste5'
 
+  clear: ->
+    global.sel1 = ''
+    global.sel2 = ''
+    global.sel3 = ''
+    global.sel4 = ''
+    global.sel5 = ''
 
 
   toggle: ->
